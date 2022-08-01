@@ -81,11 +81,13 @@ main::-webkit-scrollbar{
   height: 100vh;
   justify-content: center;
   align-items: center;
+  margin: auto;
 }
 .aboutme{
   margin: 2rem;
   text-align: center;
   font-weight: 400;
+  margin: auto;
 }
 .middle{
     width: 100%;
