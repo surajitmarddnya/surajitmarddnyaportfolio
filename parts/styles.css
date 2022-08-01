@@ -41,9 +41,7 @@ body::before{
 
 body {
   font-family: "Poppins", sans-serif;
-  background-image: url(/parts/images/orange-flower-floral-background-colorful-3d-background-3840x3840-7628.jpg);
-  background-size: cover;
-  background-position: center;
+  background-image: url(images/gradienta-G084bO4wGDA-unsplash.jpg);
   display: flex;
   justify-content: center;
   align-items: center;
