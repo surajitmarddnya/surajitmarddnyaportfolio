@@ -84,7 +84,7 @@ main::-webkit-scrollbar{
     align-items: center;
     width: 100%;
     height: 100px;
-    justify-content: space-between;
+    justify-content: space-around;
     border-bottom: 1.5px solid rgb(255 255 255 / 35%);
 }
 
@@ -109,7 +109,48 @@ main::-webkit-scrollbar{
     background: white;
     border-radius: 25px;
 }
+.dropbtn{
+  border: none;
+  background: none;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  padding: 5px 20px;
+  display: none;
+}
 
+.dropcont{
+  display: none;
+  position: absolute;
+  max-width: 100px;
+  z-index: 1;
+  margin-left: 31px;
+}
+.dropbtn:hover{
+  transition: ease-out 500ms;
+  background: white;
+  border-radius: 25px;
+}
+.dropdown:hover .dropcont{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background:none ;
+  gap: 10px;
+  border-radius: 10px;
+}
+.dropcont a{
+  display: block;
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+.dropcont a:hover{
+  background-color: white;
+  transition: ease-out 500ms;
+  border-radius: 25px;
+}
 .hero-section{
     margin: 2rem 0;
     padding-top: 130px;
@@ -134,7 +175,10 @@ main::-webkit-scrollbar{
 .hero-section-text{
   font-weight: 350;
 }
-@media only screen and (max-width: 720px){
+.hero-section-name{
+  font-size: 40px;
+}
+@media only screen and (max-width: 1020px){
   .skillsAndProjects{
     grid-template-columns: [one] 100%;
     grid-template-rows: [one] [two];
@@ -147,5 +191,20 @@ main::-webkit-scrollbar{
   }
   .hero-section img{
     width: 250px;
-  } 
   }
+  .dropbtn{
+    display: block;
+  }
+  .dropcont{
+    margin-left: 21px;
+  }
+  }
+@media only screen and (max-width: 560px){
+    .title{
+      font-size: 25px;
+      display: block;
+    }
+    .navbar{
+      flex-direction: column;
+    }
+}

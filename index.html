@@ -5,23 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Portfolio</title>
 </head>
 <body>
     <main>
         <nav class="navbar">
             <h1 class="title">Rahul Gorai Portfolio</h1>
-            <div class="navbar-links">
-                <a href="/parts/aboutme.html">About Me</a>
-                <a href="/parts/skills.html">Skills</a>
-                <a href="/parts/projects.html">Projects</a>
-                <a href="/parts/connect.html">Let's Connect</a>
+            <div class="nav-cont">
+                <div class="navbar-links">
+                    <a href="/parts/aboutme.html">About Me</a>
+                    <a href="/parts/skills.html">Skills</a>
+                    <a href="/parts/projects.html">Projects</a>
+                    <a href="/parts/connect.html">Let's Connect</a>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn">Dropdown
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropcont">
+                        <a href="/parts/aboutme.html">About Me</a>
+                        <a href="/parts/skills.html">Skills</a>
+                        <a href="/parts/projects.html">Projects</a>
+                        <a href="/parts/connect.html">Let's Connect</a>
+                    </div>
+                </div>
             </div>
         </nav>
         <section class="hero-section">
             <img src="/parts/images/its_me.jpg" alt="Avatar">
             <div class="hero-section-details">
-                <h1 class="hero-section-name">Rahul Gorai</h1>
+                <h2 class="hero-section-name">Rahul Gorai</h2>
                 <h3 class="hero-section-text">Currently playing with Android</h3>
             </div>
         </section>
