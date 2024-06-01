@@ -583,7 +583,7 @@
     });
 
     var typed = new Typed(".typed", {
-        strings: ["Cloud Engineer", "Distro Hopper", "Custom rom Dev", "Linux enthusiast","Techie"],
+        strings: ["Cloud Engineer", "AWS","GCP", "Web Development", "Linux enthusiast","Techie"],
         typeSpeed: 100,
         loop: true,
         cursorChar: "|",
